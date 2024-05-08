@@ -31,11 +31,11 @@ Reset jaringan: http://192.168.4.1/?resetwifi=ssid;kata sandi
 
 // Masukkan nama SSID dan kata sandi WiFi
 const char* ssid     = "android";   //SSID jaringan Anda
-const char* password = "asepoman";   //Kata sandi jaringan Anda
+const char* password = "12345678";   //Kata sandi jaringan Anda
 
 // Masukkan nama SSID AP dan kata sandi
 const char* apssid = "android";
-const char* appassword = "asepoman";    //Kata sandi AP harus minimal delapan karakter
+const char* appassword = "12345678";    //Kata sandi AP harus minimal delapan karakter
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
